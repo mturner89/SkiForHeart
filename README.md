@@ -35,6 +35,6 @@ CSS, SASS &amp; JS for the 2017 Ski For Heart event
     <li>Register/Login</li>
   </ul>
 </li>
-<li>Top Fundraisers and Total Raised were attempted in the home page during this upload<li>
+<li>Top Fundraisers and Total Raised were attempted in the home page during this upload</li>
 </ul>
 

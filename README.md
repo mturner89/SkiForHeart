@@ -14,7 +14,7 @@ CSS, SASS &amp; JS for the 2017 Ski For Heart event
       <li>Footer</li>
     </ul>
   </li>
-  <li>Compiled CSS files included - all SASS is compiled into the main.css file </li>
+  <li>Compiled CSS files included - all SASS is compiled into the <b>main.css</b> file </li>
   <li>Turnergrid framework included - newly added push/pull column abilities</li>
 </ul>
 

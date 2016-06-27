@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ski For Heart</title>
+	<link href='css/SASS/stylesheets/main.css' rel='stylesheet' type='text/css'>	
+	<link href='css/framework/turnergrid.css' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $(".collapse-nav").click(function() {
+			$(".nav-items").fadeIn(600);
+			$(".nav-items").toggleClass('nav-items-toggle');
+			if ($(".nav-items").hasClass('nav-items-toggle')) {
+			  $(".nav-items").css({
+				display: "block"
+			  });
+			} else {
+			  $(".nav-items").css({
+				display: "none"
+			  });
+			  $(".nav-items").fadeOut(300);
+			}
+		  });
+		});
+	</script>
+</head>
+<body>
+	<div class="container" style="max-width:1015px;"><!-- Site Container -->
+		
+		<!-- Leaderboard Image -->
+		<div class="row-wrapper">
+			<div class="col-12" id="leaderboard-wrapper">
+				<img class="leaderboard-img" src="images/leaderboard.jpg"/>
+			</div>			
+		</div>
+		<!-- End Leaderboard Image -->
+		
+		<!-- Start of Navigation -->
+		<div class="row-wrapper">
+			<div class="wood-wrapper">
+				<div class="wood-inner">
+					<div class="top-fundraisers">
+						<p>Top Fundraisers</p>
+						<div>
+							<p>1. John Smith</p>
+							<p>2. Adam Sandler</p>
+							<p>3. Woody Harrelson</p>
+							<p>4. Rob Schnieder</p>
+							<p>5. Sherly Co-op</p>
+						</div>
+					</div>
+					<div class="total-raised">
+						<p>Total Raised</p>
+						<p>$110,000</p>
+					</div>
+				</div>
+			</div>
+			<div class="nav-container" style="max-width:1015px;margin:0px;margin-right:-15px;margin-top:5px;">
+				<div class="collapse-nav">
+					<p></p>
+					<p></p>
+					<p></p>					
+				</div>
+				<div class="menu-name">
+					<p>Menu</p>
+				</div>
+				<div class="nav-items">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="register.html">Register/Login</a></li>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+						<li><a href="donation-in-action.html">Donation in Action</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+		<!-- End of Navigation -->
+		
+		<!-- Add This -->
+			<img src="images/add_this.jpg" style="margin-left:-15px;padding-top:20px;"/>
+		<!-- End Add This -->
+		
+		<!-- Body Wrapper -->
+		<div class="row-wrapper">
+			<div class="col-11" id="body-contents"><!--Body Contents -->
+				<h1 class="cntr">About The Event</h1>
+				<p>Since 1976, Heart&Stroke Ski for Heart participants have enthusiastically embraced endless outdoor adventures and indulged in the magnificence of the majestic Canadian Rockies. Ski for Heart is a phenomenal opportunity to support a great cause and enjoy everything Lake Louise has to offer at an affordable rate.</p>
+				<h2 class="cntr">Weekend Schedule</h2>
+				<div class="spacer"></div>
+				<div class="col-6 push-6">
+					<h3 class="schedule-heading">Friday January 22</h3>
+					<p><b>4:00 pm</b>- Event Check-in Opens</p>
+					<p><b>7:00 - 8:00 pm</b> - Meet & Greet Reception with Honourary Co-chairs Justin Wadsworth and Beckie Scott. <a href=" ">Learn more about our special guests.</a></p>
+					<p><b>9:00 pm</b> - Event Check-In closes, don’t worry you can always catch us in the morning.</p>
+					<p>Looking for activities to keep the kids entertained? <a href=" ">Check out all the Fairmont has to offer!</a></p>
+				</div>
+				<div class="col-6 pull-6">
+					<img src="images/fri-image.jpg"/>
+				</div>				
+				<div class="spacer light-hr"></div>
+				<div class="col-6 push-6">
+					<h3 class="schedule-heading">Saturday January 23 - The Main Event</h3>
+					<p><b>4:00 pm</b>- Event Check-in Opens</p>
+					<p><b>7:00 - 8:00 pm</b> - Meet & Greet Reception with Honourary Co-chairs Justin Wadsworth and Beckie Scott. <a href=" ">Learn more about our special guests.</a></p>
+					<p><b>9:00 pm</b> - Event Check-In closes, don’t worry you can always catch us in the morning.</p>
+					<p>Looking for activities to keep the kids entertained? <a href=" ">Check out all the Fairmont has to offer!</a></p>
+				</div>
+				<div class="col-6 pull-6">
+					<img src="images/sat-image.jpg"/>
+					<p><b>Traditional Loop - 4km</b></p>
+					<p>The Traditional Loop will be conducted on Lake Louise as it has in years past. This route features 4km of trails and a total elevation gain of 15m.
+					Don’t forget about the stunning views of Chateau Lake Louise and the Plaine of Six Glaciers!</p>
+				</div>				
+				<div class="spacer light-hr"></div>
+				<div class="col-6 push-6">
+					<h3 class="schedule-heading">Saturday Afternoon - Apres Ski</h3>
+					<p><b>4:00 - 6:00 pm</b></p>
+					<p>Celebrate a great day in the mountains with our Après Ski - hors d'oeuvres, speakers, awards and a cash bar. Don’t forget to reward yourself with some great items from the silent auction!</p>
+					<p><a href=" ">See additional activities offered by the Fairmont!</a></p>
+				</div>
+				<div class="col-6 pull-6">
+					<img src="images/sat-aft-image.jpg"/>					
+				</div>
+				
+				<div class="spacer"></div>
+				<hr/>
+				<h2 class="cntr">Fundraising Incentives</h2>
+				<div class="col-6 push-6">
+					<p>By raising a minimum of $500 between September and January, you are eligible for a special room rate* at the Fairmont Chateau Lake Louise. For every additional $250 you raise, you’ll earn 20 Fairmont dollars which can be applied to lower your room rate even further, treat your taste buds to an unforgettable meal at one of the Fairmont fine restaurants or pamper yourself with a spa experience.</p>
+					<p>Also, for each friend you refer to participate and who raises $500 for Ski for Heart, you will receive 40 Fairmont dollars. Simply contact skiforheart@hsf.ab.ca, once your friends have registered.</p>
+				</div>
+				<div class="col-6 pull-6">
+					<img src="images/fundraise-incentive.jpg"/>	
+					<p style="font-size:90%;"><i>*room rates start at $139, not including service fees or applicable taxes</i></p>
+				</div>				
+				<div class="spacer"></div>
+			</div><!-- End Body Contents -->
+		</div>
+		<!-- End Body Wrapper -->
+		
+		<!-- Footer -->
+		<div class="row-wrapper">
+			<div class="col-11" id="footer">
+				<p><a href=" ">CONTACT US</a> | <a>PRIVACY POLICY</a> | <a>TERMS</a> | <a>WAIVER</a> | © 2016 Heart and Stroke Foundation Canada. All rights reserved.</p>
+				<p>We are committed to protecting the privacy of your personal information. We may maintain a record of your interaction for donor-related, promotion and tax receipting purposes, where required. Occasionally, we may contact you with mission-related or program related communications. If you wish no further contact or have any questions or concerns regarding the privacy of your personal information, please contact the Chief Privacy Officer, at your provincial Heart and Stroke Foundation of Canada office at 1-888-HSF-INFO (473-4636) or through <a>www.heartandstroke.ca/privacy</a>.</p>
+			</div>
+		</div>
+		<!-- End Footer -->
+
+		
+	</div><!-- End Site Container -->
+</body>
+</html>

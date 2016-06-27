@@ -1,0 +1,316 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*********************************** Typography Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/typography.scss */
+p, a, ul, li, button {
+  font-family: 'Roboto',Arial,sans-serif;
+  color: #000;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 14, ../sass/typography.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat','Roboto',Arial,sans-serif;
+  color: #BB2233;
+}
+
+/* line 19, ../sass/typography.scss */
+a {
+  color: #BB2233;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 23, ../sass/typography.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 27, ../sass/typography.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 32, ../sass/typography.scss */
+hr {
+  height: 3px;
+  width: 100%;
+  color: #BB2233;
+  background-color: #BB2233;
+}
+
+/* line 39, ../sass/typography.scss */
+.light-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: #f5f5f5;
+}
+
+/* line 45, ../sass/typography.scss */
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 50, ../sass/typography.scss */
+.cntr {
+  text-align: center;
+}
+
+/* line 53, ../sass/typography.scss */
+.spacer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 15px;
+  clear: both;
+}
+
+/* line 59, ../sass/typography.scss */
+.schedule-heading {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/*********************************** Navigation Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/nav.scss */
+.nav-wrapper {
+  margin-left: -15px;
+}
+
+/* line 10, ../sass/nav.scss */
+.nav-container {
+  margin-top: 8px;
+}
+
+/* line 13, ../sass/nav.scss */
+.wood-wrapper {
+  background: url("../../../images/wood-2.jpg") no-repeat;
+  height: 50px;
+  margin-top: 2px;
+  max-width: 1015px;
+}
+/* line 18, ../sass/nav.scss */
+.wood-wrapper .wood-inner {
+  background: rgba(255, 255, 255, 0.2);
+  height: 50px;
+  padding-top: 8px;
+}
+/* line 22, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers {
+  width: 85%;
+  margin-left: 10px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  display: inline-block;
+  float: left;
+}
+/* line 30, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers p {
+  float: left;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+}
+/* line 40, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers div {
+  float: left;
+}
+/* line 42, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers div p {
+  display: inline-block;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: none;
+  font-weight: normal;
+  padding-right: 0px;
+  border-right: none;
+}
+/* line 54, ../sass/nav.scss */
+.wood-wrapper .wood-inner .total-raised {
+  display: inline-block;
+  float: right;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 0px;
+  margin-top: -8px;
+  width: 12%;
+  color: #fff;
+}
+/* line 63, ../sass/nav.scss */
+.wood-wrapper .wood-inner .total-raised p:first-child {
+  margin: 0px;
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 10px;
+  text-transform: uppercase;
+  /*font-weight:bold;*/
+  text-align: right;
+}
+/* line 73, ../sass/nav.scss */
+.wood-wrapper .wood-inner .total-raised p:last-child {
+  margin: 0px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* line 84, ../sass/nav.scss */
+.nav-items {
+  margin-right: -15px;
+}
+
+/* line 87, ../sass/nav.scss */
+.nav-items ul {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 90, ../sass/nav.scss */
+.nav-items ul li {
+  padding: 0px !important;
+}
+/* line 92, ../sass/nav.scss */
+.nav-items ul li a {
+  color: #fff;
+  padding-right: 37px;
+  padding-left: 37px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #BB2233;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* line 102, ../sass/nav.scss */
+.nav-items ul li a:hover {
+  text-decoration: none;
+  color: #BB2233;
+  background-color: #fff;
+}
+
+/* line 110, ../sass/nav.scss */
+.menu-name {
+  float: left;
+  display: none;
+  margin-left: 15px;
+}
+/* line 114, ../sass/nav.scss */
+.menu-name p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+/************************************* Nav Media Querries *************************************/
+@media only screen and (max-width: 1050px) {
+  /* line 129, ../sass/nav.scss */
+  .wood-wrapper {
+    display: none;
+  }
+
+  /* line 132, ../sass/nav.scss */
+  .nav-items > ul > li > a {
+    padding-left: 28px;
+    padding-right: 29px;
+  }
+
+  /* line 136, ../sass/nav.scss */
+  .leaderboard-img {
+    max-width: 910px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  /* line 142, ../sass/nav.scss */
+  .nav-container {
+    background-color: #BB2233;
+  }
+
+  /* line 145, ../sass/nav.scss */
+  .nav-items {
+    border-top: 1px solid #fff;
+  }
+
+  /* line 148, ../sass/nav.scss */
+  #leaderboard-wrapper {
+    overflow: hidden;
+  }
+
+  /* line 151, ../sass/nav.scss */
+  .leaderboard-img {
+    min-height: 180px;
+    min-width: 600px;
+    max-width: 100%;
+  }
+
+  /* line 156, ../sass/nav.scss */
+  .menu-name {
+    display: block;
+  }
+}
+/*********************************** Body Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/body.scss */
+#body-contents {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+/* line 11, ../sass/body.scss */
+#body-contents p {
+  line-height: 1.5;
+}
+
+/*********************************** Body Media Querries *******************************************/
+@media only screen and (max-width: 950px) {
+  /* line 20, ../sass/body.scss */
+  .col-3 > img,
+  .col-6 > img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 25, ../sass/body.scss */
+  .col-3 > p,
+  .col-6 > p {
+    text-align: center;
+  }
+}
+/*********************************** Footer Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/footer.scss */
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-top: 80px;
+}
+/* line 12, ../sass/footer.scss */
+#footer p {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* line 17, ../sass/footer.scss */
+#footer p a {
+  font-size: 14px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ski For Heart</title>
+	<link href='css/SASS/stylesheets/main.css' rel='stylesheet' type='text/css'>	
+	<link href='css/framework/turnergrid.css' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $(".collapse-nav").click(function() {
+			$(".nav-items").fadeIn(600);
+			$(".nav-items").toggleClass('nav-items-toggle');
+			if ($(".nav-items").hasClass('nav-items-toggle')) {
+			  $(".nav-items").css({
+				display: "block"
+			  });
+			} else {
+			  $(".nav-items").css({
+				display: "none"
+			  });
+			  $(".nav-items").fadeOut(300);
+			}
+		  });
+		});
+	</script>
+</head>
+<body>
+	<div class="container" style="max-width:1015px;"><!-- Site Container -->
+		
+		<!-- Leaderboard Image -->
+		<div class="row-wrapper">
+			<div class="col-12" id="leaderboard-wrapper">
+				<img class="leaderboard-img" src="images/leaderboard.jpg"/>
+			</div>			
+		</div>
+		<!-- End Leaderboard Image -->
+		
+		<!-- Start of Navigation -->
+		<div class="row-wrapper">
+			<div class="wood-wrapper">
+				<div class="wood-inner">
+					<div class="top-fundraisers">
+						<p>Top Fundraisers</p>
+						<div>
+							<p>1. John Smith</p>
+							<p>2. Adam Sandler</p>
+							<p>3. Woody Harrelson</p>
+							<p>4. Rob Schnieder</p>
+							<p>5. Sherly Co-op</p>
+						</div>
+					</div>
+					<div class="total-raised">
+						<p>Total Raised</p>
+						<p>$110,000</p>
+					</div>
+				</div>
+			</div>
+			<div class="nav-container" style="max-width:1015px;margin:0px;margin-right:-15px;margin-top:5px;">
+				<div class="collapse-nav">
+					<p></p>
+					<p></p>
+					<p></p>					
+				</div>
+				<div class="menu-name">
+					<p>Menu</p>
+				</div>
+				<div class="nav-items">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="register.html">Register/Login</a></li>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+						<li><a href="donation-in-action.html">Donation in Action</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+		<!-- End of Navigation -->
+		
+		<!-- Add This -->
+			<img src="images/add_this.jpg" style="margin-left:-15px;padding-top:20px;"/>
+		<!-- End Add This -->
+		
+		<!-- Body Wrapper -->
+		<div class="row-wrapper">
+			<div class="col-11" id="body-contents"><!--Body Contents -->
+				<h1 class="heading">Join the Celebration with Olympians Justin Wadsworth and Beckie Scott</h1>
+				<p>Ski for Heart has evolved over 40 years, but at its core is the gathering of Albertans who are passionate about the health and lives of their families and their communities. Year after year the event has given families a luxurious weekend away to embrace time together in magical Lake Louise. This year, get involved in three easy steps and meet our very special guests!</p>
+				<div class="col-3">
+					<h3 class="cntr">Register</h3>
+					<img src="images/old-lady.jpg"/>
+					<p>Register online with just a few clicks! This will give you easy access to online resources to help you raise life-saving funds.</p>
+					<p><a href=" ">See where those much needed dollars go.</a></p>
+				</div>
+				<div class="col-3">
+					<h3 class="cntr">Fundraise</h3>
+					<img src="images/family.jpg"/>
+					<p>Fundraise a minimum of $500 to receive your special room rate starting at $139* at the Fairmont Chateau Lake Louise. An incredible weekend away at a price you can’t beat. Plus, for every additional $250 you raise, you’ll earn 20 Fairmont dollars!</p>
+				</div>
+				<div class="col-3">
+					<h3 class="cntr">Celebrate & Ski</h3>
+					<img src="images/small-family.jpg"/>
+					<p>Challenge yourself to a ski through the majestic surroundings of Lake Louise or enjoy plenty of other activity offered by the Chateau.</p>
+					<p><a href=" ">Read more here</a></p>
+				</div>
+				<div class="col-3">
+					<h3 class="cntr">Our Special Guests</h3>
+					<img src="images/couple.jpg"/> 
+					<p><i>"We couldn’t be happier or more excited to be the Honourary Co-Chairs for this year’s 40th Anniversary…"</i></p>
+					<p><a href=" ">Click here</a> to learn more about our Honourary Co-chairs, Olympians Beckie Scott and Justin Wadsworth.</p>
+				</div>
+				<div class="spacer"></div>
+				<div class="col-6">
+					<img src="images/tail-featha.jpg"/>	
+					<p>*room rates do not include service fees or applicable taxes.</p>
+				</div>
+				<div class="col-6">
+					<p>From ice sculptures to skating on the lake to relaxing at the spa, there is so much to enjoy in Lake Louise.</p>
+					<p><a href=" ">Learn more</a> about the activities available for you and your family and friends.</p>
+				</div>
+			</div><!-- End Body Contents -->
+		</div>
+		<!-- End Body Wrapper -->
+		
+		<!-- Footer -->
+		<div class="row-wrapper">
+			<div class="col-11" id="footer">
+				<p><a href=" ">CONTACT US</a> | <a>PRIVACY POLICY</a> | <a>TERMS</a> | <a>WAIVER</a> | © 2016 Heart and Stroke Foundation Canada. All rights reserved.</p>
+				<p>We are committed to protecting the privacy of your personal information. We may maintain a record of your interaction for donor-related, promotion and tax receipting purposes, where required. Occasionally, we may contact you with mission-related or program related communications. If you wish no further contact or have any questions or concerns regarding the privacy of your personal information, please contact the Chief Privacy Officer, at your provincial Heart and Stroke Foundation of Canada office at 1-888-HSF-INFO (473-4636) or through <a>www.heartandstroke.ca/privacy</a>.</p>
+			</div>
+		</div>
+		<!-- End Footer -->
+
+		
+	</div><!-- End Site Container -->
+</body>
+</html>

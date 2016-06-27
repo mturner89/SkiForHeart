@@ -1,0 +1,21 @@
+/*********************************** Footer Styles ******************************************/
+
+/**** Variable Declarations ****/
+$HSFred:#BB2233;
+$text-color:#000;
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	margin-top:80px;
+	p{
+		line-height:1.5;
+		text-align:center;
+		font-size:14px;
+		font-weight:normal;
+		a {
+			font-size:14px;
+		}
+	}	
+}

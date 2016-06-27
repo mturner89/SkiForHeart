@@ -1,0 +1,28 @@
+/*********************************** Body Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/body.scss */
+#body-contents {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+/* line 11, ../sass/body.scss */
+#body-contents p {
+  line-height: 1.5;
+}
+
+/*********************************** Body Media Querries *******************************************/
+@media only screen and (max-width: 950px) {
+  /* line 20, ../sass/body.scss */
+  .col-3 > img,
+  .col-6 > img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 25, ../sass/body.scss */
+  .col-3 > p,
+  .col-6 > p {
+    text-align: center;
+  }
+}

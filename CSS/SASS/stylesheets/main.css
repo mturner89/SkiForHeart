@@ -202,7 +202,7 @@ hr {
 .nav-items ul li a:hover {
   text-decoration: none;
   color: #BB2233;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 /* line 110, ../sass/nav.scss */

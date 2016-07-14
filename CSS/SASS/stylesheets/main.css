@@ -81,30 +81,30 @@ hr {
 
 /*********************************** Navigation Styles ******************************************/
 /**** Variable Declarations ****/
-/* line 7, ../sass/nav.scss */
+/* line 8, ../sass/nav.scss */
 .nav-wrapper {
   margin-left: -15px;
 }
 
-/* line 10, ../sass/nav.scss */
+/* line 11, ../sass/nav.scss */
 .nav-container {
   margin-top: 8px;
 }
 
-/* line 13, ../sass/nav.scss */
+/* line 14, ../sass/nav.scss */
 .wood-wrapper {
-  background: url("../../../images/wood-2.jpg") no-repeat;
+  /*background: url("../../../images/wood-2.jpg") no-repeat;*/
   height: 50px;
   margin-top: 2px;
   max-width: 1015px;
 }
-/* line 18, ../sass/nav.scss */
+/* line 19, ../sass/nav.scss */
 .wood-wrapper .wood-inner {
   background: rgba(255, 255, 255, 0.2);
   height: 50px;
   padding-top: 8px;
 }
-/* line 22, ../sass/nav.scss */
+/* line 23, ../sass/nav.scss */
 .wood-wrapper .wood-inner .top-fundraisers {
   width: 85%;
   margin-left: 10px;
@@ -114,7 +114,7 @@ hr {
   display: inline-block;
   float: left;
 }
-/* line 30, ../sass/nav.scss */
+/* line 31, ../sass/nav.scss */
 .wood-wrapper .wood-inner .top-fundraisers p {
   float: left;
   color: #fff;
@@ -125,12 +125,21 @@ hr {
   padding-right: 10px;
   border-right: 1px solid #fff;
 }
-/* line 40, ../sass/nav.scss */
-.wood-wrapper .wood-inner .top-fundraisers div {
+/* line 41, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper {
   float: left;
+  max-width: 682px;
+  overflow: hidden;
 }
-/* line 42, ../sass/nav.scss */
-.wood-wrapper .wood-inner .top-fundraisers div p {
+/* line 45, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents {
+  height: 45px;
+  width: 1600px;
+  -webkit-animation: RightToLeft 15s infinite;
+  /*This animation is located further down the stylesheet */
+}
+/* line 49, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p {
   display: inline-block;
   color: #fff;
   padding-left: 10px;
@@ -140,7 +149,7 @@ hr {
   padding-right: 0px;
   border-right: none;
 }
-/* line 54, ../sass/nav.scss */
+/* line 62, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised {
   display: inline-block;
   float: right;
@@ -151,7 +160,7 @@ hr {
   width: 12%;
   color: #fff;
 }
-/* line 63, ../sass/nav.scss */
+/* line 71, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised p:first-child {
   margin: 0px;
   margin-top: 5px;
@@ -162,7 +171,7 @@ hr {
   /*font-weight:bold;*/
   text-align: right;
 }
-/* line 73, ../sass/nav.scss */
+/* line 81, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised p:last-child {
   margin: 0px;
   margin-right: 10px;
@@ -172,21 +181,36 @@ hr {
   text-align: right;
 }
 
-/* line 84, ../sass/nav.scss */
+/* This animates the scoreboard, it takes 15 seconds to complete the animation and it pulls the board from right to left before resetting again */
+@-webkit-keyframes RightToLeft {
+  0% {
+    margin-left: 0;
+  }
+  10% {
+    margin-left: 0;
+  }
+  90% {
+    margin-left: -110%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/* line 100, ../sass/nav.scss */
 .nav-items {
   margin-right: -15px;
 }
 
-/* line 87, ../sass/nav.scss */
+/* line 103, ../sass/nav.scss */
 .nav-items ul {
   padding: 0px;
   margin: 0px;
 }
-/* line 90, ../sass/nav.scss */
+/* line 106, ../sass/nav.scss */
 .nav-items ul li {
   padding: 0px !important;
 }
-/* line 92, ../sass/nav.scss */
+/* line 108, ../sass/nav.scss */
 .nav-items ul li a {
   color: #fff;
   padding-right: 37px;
@@ -198,20 +222,20 @@ hr {
   text-transform: uppercase;
   font-size: 16px;
 }
-/* line 102, ../sass/nav.scss */
+/* line 118, ../sass/nav.scss */
 .nav-items ul li a:hover {
   text-decoration: none;
   color: #BB2233;
   background-color: #f5f5f5;
 }
 
-/* line 110, ../sass/nav.scss */
+/* line 126, ../sass/nav.scss */
 .menu-name {
   float: left;
   display: none;
   margin-left: 15px;
 }
-/* line 114, ../sass/nav.scss */
+/* line 130, ../sass/nav.scss */
 .menu-name p {
   color: #fff;
   text-align: center;
@@ -222,46 +246,46 @@ hr {
 
 /************************************* Nav Media Querries *************************************/
 @media only screen and (max-width: 1050px) {
-  /* line 129, ../sass/nav.scss */
+  /* line 145, ../sass/nav.scss */
   .wood-wrapper {
     display: none;
   }
 
-  /* line 132, ../sass/nav.scss */
+  /* line 148, ../sass/nav.scss */
   .nav-items > ul > li > a {
     padding-left: 28px;
     padding-right: 29px;
   }
 
-  /* line 136, ../sass/nav.scss */
+  /* line 152, ../sass/nav.scss */
   .leaderboard-img {
     max-width: 910px;
   }
 }
 @media only screen and (max-width: 950px) {
-  /* line 142, ../sass/nav.scss */
+  /* line 158, ../sass/nav.scss */
   .nav-container {
     background-color: #BB2233;
   }
 
-  /* line 145, ../sass/nav.scss */
+  /* line 161, ../sass/nav.scss */
   .nav-items {
     border-top: 1px solid #fff;
   }
 
-  /* line 148, ../sass/nav.scss */
+  /* line 164, ../sass/nav.scss */
   #leaderboard-wrapper {
     overflow: hidden;
   }
 
-  /* line 151, ../sass/nav.scss */
+  /* line 167, ../sass/nav.scss */
   .leaderboard-img {
     min-height: 180px;
     min-width: 600px;
     max-width: 100%;
   }
 
-  /* line 156, ../sass/nav.scss */
+  /* line 172, ../sass/nav.scss */
   .menu-name {
     display: block;
   }

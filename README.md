@@ -1,6 +1,21 @@
 #Ski For Heart
 CSS, SASS &amp; JS for the 2017 Ski For Heart event
 
+<p><b>July 14th - UPDATE</b></p>
+
+<p>CSS/SASS</p>
+<ul>
+  <li>Wooden background removed for top fundraisers</li>
+  <li>New scrolling top fundraisers scoreboard added to nav.scss</li>
+</ul>
+
+<p>HTML</p>
+<ul>
+  <li>Top Fundraiser code modified to allow for auto scroll functionality. This piece of code now only resides on the home page per the customers request</li>
+</ul>
+<br/>
+<br/>
+
 <p><b>June 27th - UPDATE</b></p>
 
 <p>CSS/SASS</p>
@@ -37,17 +52,5 @@ CSS, SASS &amp; JS for the 2017 Ski For Heart event
   </li>
   <li>Top Fundraisers and Total Raised were attempted in the home page during this upload</li>
 </ul>
-<br/>
-<br/>
-<p><b>July 14th - UPDATE</b></p>
 
-<p>CSS/SASS</p>
-<ul>
-  <li>Wooden background removed for top fundraisers</li>
-  <li>New scrolling top fundraisers scoreboard added to nav.scss</li>
-</ul>
 
-<p>HTML</p>
-<ul>
-  <li>Top Fundraiser code modified to allow for auto scroll functionality. This piece of code now only resides on the home page per the customers request</li>
-</ul>

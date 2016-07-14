@@ -37,7 +37,8 @@ CSS, SASS &amp; JS for the 2017 Ski For Heart event
   </li>
   <li>Top Fundraisers and Total Raised were attempted in the home page during this upload</li>
 </ul>
-
+<br/>
+<br/>
 <p><b>July 14th - UPDATE</b></p>
 
 <p>CSS/SASS</p>

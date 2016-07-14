@@ -1,6 +1,7 @@
 #Ski For Heart
 CSS, SASS &amp; JS for the 2017 Ski For Heart event
-
+<br/>
+<br/>
 <p><b>July 14th - UPDATE</b></p>
 
 <p>CSS/SASS</p>

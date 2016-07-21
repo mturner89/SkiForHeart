@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
 
 /* line 19, ../sass/typography.scss */
 a {
-  color: #BB2233 !important;
+  color: #BB2233;
   text-decoration: none;
   font-weight: bold;
 }

@@ -344,3 +344,6 @@ hr {
 #footer p a {
   font-size: 14px;
 }
+#footer a {
+  color:#bb2233 !important;
+}

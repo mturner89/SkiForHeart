@@ -104,7 +104,9 @@ label {
 #next_step,
 #user_type_login_login_button,
 #fuw_next,
-#next_button {
+#next_button,
+#part_ctr_container,
+#part_ctr_container_step{
 	background-image:none !important;
 	background-color:#ef3e42 !important;
 	border:1px solid #BB2233 !important; 

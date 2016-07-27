@@ -64,10 +64,12 @@ label {
 /*********************************************** Registration Form **********************************************************/
 
 /*Removes borders and background color from the whole form*/
-#part_type_section_container {
+#part_type_section_container,
+.section-header  {
 	border:none !important;
 }
-#part_type_section_header {
+#part_type_section_header,
+.section-header {
 	background-color:#fff;
 }
 

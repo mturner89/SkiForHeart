@@ -37,7 +37,7 @@ label {
 	padding:0px;
 }
 .donation-level-input-container {
-	padding:5px;	
+	padding:5px !important;	
 }
 
 /*Sets submit button styles*/

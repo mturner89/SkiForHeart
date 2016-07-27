@@ -77,3 +77,10 @@ label {
 	border-color:#bb2233 !important;
 	background-color:#fff !important;
 }
+
+/*Brands the next step button to HSF Red colors*/
+#next_step {
+	background-image:none !important;
+	background-color:#ef3e42 !important;
+	border:1px solid #BB2233 !important; 
+}

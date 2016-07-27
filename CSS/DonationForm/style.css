@@ -93,7 +93,9 @@ label {
 	color:#666 !important;
 }
 #user_type_email_login_info_link_container > a,
-#cancel_button {
+#cancel_button,
+#fuw_cancel,
+.printable-link-text {
 	color:#BB2233 !important;
 }
 

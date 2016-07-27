@@ -84,7 +84,7 @@ label {
 
 
 /*Changes the color of the circle containing what step you are at*/
-.progress-bar-step-number-container {
+.progress-bar-step-current > .progress-bar-step-number-container {
 	background:#bb2233 !important;
 }
 

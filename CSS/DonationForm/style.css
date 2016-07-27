@@ -19,7 +19,7 @@
 }
 
 /*Hides the Norton logo that Convio inserts*/
-.html-caption-container > table > tbody > tr > td:nth-child(2) {
+.html-caption-container > table > tbody > tr > td:last-child {
 	display:none;	
 }
 

@@ -82,6 +82,12 @@ label {
 	background-color:#fff !important;
 }
 
+
+/*Changes the color of the circle containing what step you are at*/
+.progress-bar-step-number-container {
+	background-color:#bb2233;
+}
+
 /*Brands the steps for moving through the steps */
 .progress-bar-step-text-container > a,
 #user_type_email_login_info_link_container > a {

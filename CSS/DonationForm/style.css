@@ -50,3 +50,9 @@ label {
 	color:#fff;
 	text-transform:uppercase;
 }
+
+/*Styles the CVV help link and the form cancel button*/
+.HelpLink,
+#pstep_cancel {
+	color:#bb2233 !important;
+}

@@ -7,8 +7,8 @@
 /*Sets the form contents to fit the design and controls how spaced it looks in the content */
 .donation-form-container,
 .responsive {
-	background:#fff;
-	border:none;
+	background:#fff !important;
+	border:none !important;
 	max-width:1015px;
 	margin-left:10px;
 	padding:10px;

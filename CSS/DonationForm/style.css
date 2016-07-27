@@ -80,6 +80,11 @@ label {
 	background-color:#fff !important;
 }
 
+/*Brands the steps for moving through the steps */
+.progress-bar-step-text-container > a {
+	color:#BB2233 !important;
+}
+
 /*Brands the next step button to HSF Red colors*/
 #next_step,
 #user_type_login_login_button {

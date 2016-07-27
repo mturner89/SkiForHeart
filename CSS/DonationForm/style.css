@@ -89,7 +89,9 @@ label {
 }
 
 /*Brands the steps for moving through the steps */
-.progress-bar-step-text-container > a,
+.progress-bar-step-text-container > a {
+	color:#666 !important;
+}
 #user_type_email_login_info_link_container > a {
 	color:#BB2233 !important;
 }

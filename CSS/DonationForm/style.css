@@ -95,7 +95,8 @@ label {
 #user_type_email_login_info_link_container > a,
 #cancel_button,
 #fuw_cancel,
-.printable-link-text {
+.printable-link-text,
+.reg-summary-edit-link > a{
 	color:#BB2233 !important;
 }
 

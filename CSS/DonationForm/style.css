@@ -1,3 +1,5 @@
+/**********************************************************************************************************************/
+/************************************************ Donation Form *******************************************************/
 
 /*Aligns the form with the left margin of the site container */
 #ProcessForm {
@@ -55,4 +57,22 @@ label {
 .HelpLink,
 #pstep_cancel {
 	color:#bb2233 !important;
+}
+
+
+/****************************************************************************************************************************/
+/*********************************************** Registration Form **********************************************************/
+
+/*Removes borders and background color from the whole form*/
+#part_type_section_container {
+	border:none !important;
+}
+#part_type_section_header {
+	background-color:#fff;
+}
+
+/*Brands the participant type box on the form*/
+.part-type-container,
+.selected {
+	border-color:#bb2233 !important;
 }

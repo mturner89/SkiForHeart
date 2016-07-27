@@ -75,4 +75,5 @@ label {
 .part-type-container,
 .selected {
 	border-color:#bb2233 !important;
+	background-color:#fff !important;
 }

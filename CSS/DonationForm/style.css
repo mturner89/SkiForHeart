@@ -65,12 +65,14 @@ label {
 
 /*Removes borders and background color from the whole form*/
 #part_type_section_container,
-.section-header  {
+.section-header,
+.section-container  {
 	border:none !important;
 }
 #part_type_section_header,
-.section-header {
-	background-color:#fff;
+.section-header,
+.section-container {
+	background-color:#fff !important;
 }
 
 /*Brands the participant type box on the form*/

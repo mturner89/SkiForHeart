@@ -1,1 +1,43 @@
 
+/*Aligns the form with the left margin of the site container */
+#ProcessForm {
+	margin-left:-15px;
+}
+
+/*Sets the form contents to fit the design and controls how spaced it looks in the content */
+.donation-form-container {
+	background:#fff;
+	border:none;
+	max-width:1015px;
+	margin-left:10px;
+	padding:10px;
+}
+
+.html-caption-container {
+	max-width:1015px;
+}
+
+/*Hides the Norton logo that Convio inserts*/
+.donation-form-content > form-row:first-child > tobdy > tr > td:nth-child(2) {
+	display:none;	
+}
+
+/*Makes the "Donate" header larger*/
+.donation-form-content > form-row:first-child > tobdy > tr > td > h2 {
+	font-size:200%;	
+}
+
+/*Sets the size and styling of the question text*/
+.FormLabelText,
+label {
+	font-size:18px;
+}
+
+/*Sets submit button styles*/
+#pstep_finish {
+	border:1px solid #BB2233;
+	background-color:#ef3e42;
+	background-image:none;
+	color:#fff;
+	text-transform:uppercase;
+}

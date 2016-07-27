@@ -19,12 +19,12 @@
 }
 
 /*Hides the Norton logo that Convio inserts*/
-.donation-form-content > form-row:first-child > .html-caption-container > table > tbody > tr > td:nth-child(2) {
+.html-caption-container > table > tbody > tr > td:nth-child(2) {
 	display:none;	
 }
 
 /*Makes the "Donate" header larger*/
-.donation-form-content > form-row:first-child > .html-caption-container > table > tbody > tr > td > h2 {
+.html-caption-container > table > tbody > tr > td > h2 {
 	font-size:200%;	
 }
 

@@ -92,7 +92,8 @@ label {
 .progress-bar-step-text-container > a {
 	color:#666 !important;
 }
-#user_type_email_login_info_link_container > a {
+#user_type_email_login_info_link_container > a,
+#cancel_button {
 	color:#BB2233 !important;
 }
 

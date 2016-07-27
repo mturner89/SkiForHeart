@@ -5,7 +5,8 @@
 }
 
 /*Sets the form contents to fit the design and controls how spaced it looks in the content */
-.donation-form-container {
+.donation-form-container,
+.responsive {
 	background:#fff;
 	border:none;
 	max-width:1015px;

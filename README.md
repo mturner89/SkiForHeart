@@ -54,3 +54,10 @@ CSS, SASS &amp; JS for the 2017 Ski For Heart event
 </ul>
 
 
+<p><b>July 28th - UPDATE</b></p>
+
+<p>CSS/SASS</p>
+<ul>
+    <li>Added a donation form folder - contains over-rides for the donation and registration forms in Convio</li>
+    <li>Minor updates have been made to the main.css file - these aren't reflected in the main.scss file</li>
+</ul>

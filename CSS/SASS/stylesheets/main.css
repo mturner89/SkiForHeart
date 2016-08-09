@@ -93,6 +93,8 @@ hr {
   height: 50px;
   margin-top: 2px;
   max-width: 1015px;
+  position:relative;
+  margin-top:-50px;
 }
 /* line 19, ../sass/nav.scss */
 .wood-wrapper .wood-inner {

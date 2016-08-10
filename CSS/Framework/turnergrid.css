@@ -400,6 +400,11 @@ html {
 .btn:hover, .btn:active, .btn:visited {
 	border:1px solid transparent;
 }
+.btn-hsf {
+	background-color:#ef3e42;
+	color:#fff
+	text-transform:uppercase;
+}
 .btn-blue {
 	background-color:#005f95;
 	color:#fff;	

@@ -3,7 +3,7 @@ CSS, SASS &amp; JS for the 2017 Ski For Heart event
 <br/>
 <br/>
 <p><b>Aug 9th - UPDATE</b></p>
-<p>CSS/SASAS</p>
+<p>CSS/SASS</p>
 <ul>
 <li>Modified the CSS of the "wood-wrapper" element. Made position relative and adjusted the top margin so it will display properly over the new banner image</li>
 </ul>

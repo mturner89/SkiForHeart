@@ -59,6 +59,15 @@ label {
 	color:#bb2233 !important;
 }
 
+/* Floats the radio button choices to the left of one another */
+.donation-level-container {
+	float:left;
+}
+.donation-level-user-entered {
+	float:right;
+	margin-top:-5px;
+	clear:both;
+}
 
 /****************************************************************************************************************************/
 /*********************************************** Registration Form **********************************************************/

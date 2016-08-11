@@ -65,7 +65,7 @@ label {
 }
 .donation-level-user-entered {
 	float:right;
-	margin-top:-5px;
+	margin-top:-5px !important;
 	clear:both;
 }
 

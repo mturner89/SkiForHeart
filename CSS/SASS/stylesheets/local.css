@@ -344,10 +344,10 @@ hr {
   float: none;
 }
 /* line 11, ../sass/body.scss */
-#body-contents p {
+#body-contents > p {
   line-height: 1.5;
 }
-#body-contents a{
+#body-contents > a{
   color:#bb2233 !important;
 }
 .inner-pad {

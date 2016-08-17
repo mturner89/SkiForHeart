@@ -304,10 +304,10 @@ hr {
   float: none;
 }
 /* line 11, ../sass/body.scss */
-#body-contents p {
+#body-contents > p {
   line-height: 1.5;
 }
-#body-contents a {
+#body-contents > a {
   color:#bb2233 !important;
 }
 .inner-pad {
@@ -343,14 +343,14 @@ hr {
   margin-top: 80px;
 }
 /* line 12, ../sass/footer.scss */
-#footer p {
+#footer > p {
   line-height: 1.5;
   text-align: center;
   font-size: 14px;
   font-weight: normal;
 }
 /* line 17, ../sass/footer.scss */
-#footer p a {
+#footer > p > a {
   font-size: 14px;
   color:#bb2233 !important;
 }

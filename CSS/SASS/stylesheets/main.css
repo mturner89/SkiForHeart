@@ -24,7 +24,6 @@ a {
 /* line 23, ../sass/typography.scss */
 a:hover {
   text-decoration: underline;
-}
 
 /* line 27, ../sass/typography.scss */
 img {
@@ -147,6 +146,14 @@ hr {
   padding-right: 0px;
   border-right: none;
 }
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p a {
+  color:#fff;
+  display:inline-block;
+}
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p br {
+  display:none;
+}
+
 /* line 62, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised {
   display: inline-block;

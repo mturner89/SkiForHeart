@@ -146,7 +146,14 @@ hr {
   padding-right: 0px;
   border-right: none;
 }
-
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p a {
+  color:#fff;
+  display:inline-block;
+}
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p br,
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p img {
+  display:none;
+}
 /* line 62, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised {
   display: inline-block;

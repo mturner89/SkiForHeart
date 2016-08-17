@@ -92,17 +92,17 @@ hr {
   height: 50px;
   margin-top: 2px;
   max-width: 1015px;
-  position:relative;
-  margin-top:-50px;
+  position: relative;
+  margin-top: -50px;
 }
-/* line 19, ../sass/nav.scss */
-.wood-wrapper > .wood-inner {
+/* line 21, ../sass/nav.scss */
+.wood-wrapper .wood-inner {
   background: rgba(255, 255, 255, 0.2);
   height: 50px;
   padding-top: 8px;
 }
-/* line 23, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .top-fundraisers {
+/* line 25, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers {
   width: 85%;
   margin-left: 10px;
   height: 35px;
@@ -110,9 +110,10 @@ hr {
   border-radius: 8px;
   display: inline-block;
   float: left;
+  overflow: hidden;
 }
-/* line 31, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .top-fundraisers > p {
+/* line 34, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers p {
   float: left;
   color: #fff;
   font-weight: bold;
@@ -122,21 +123,24 @@ hr {
   padding-right: 10px;
   border-right: 1px solid #fff;
 }
-/* line 41, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper {
+/* line 44, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper {
   float: left;
   max-width: 682px;
   overflow: hidden;
 }
-/* line 45, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents {
+/* line 48, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents {
   height: 45px;
   width: 1600px;
   -webkit-animation: RightToLeft 15s infinite;
   /*This animation is located further down the stylesheet */
+  -moz-animation: RightToLeft 15s infinite;
+  -ms-animation: RightToLeft 15s infinite;
+  animation: RightToLeft 15s infinite;
 }
-/* line 49, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p {
+/* line 55, ../sass/nav.scss */
+.wood-wrapper .wood-inner .top-fundraisers .scoreboard-wrapper .scoreboard-contents p {
   display: inline-block;
   color: #fff;
   padding-left: 10px;
@@ -146,16 +150,8 @@ hr {
   padding-right: 0px;
   border-right: none;
 }
-.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p > a {
-  color:#fff;
-  display:inline-block;
-}
-.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p > br,
-.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p > img {
-  display:none;
-}
-/* line 62, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .total-raised {
+/* line 68, ../sass/nav.scss */
+.wood-wrapper .wood-inner .total-raised {
   display: inline-block;
   float: right;
   height: 50px;
@@ -165,8 +161,8 @@ hr {
   width: 12%;
   color: #fff;
 }
-/* line 71, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .total-raised > p:first-child {
+/* line 77, ../sass/nav.scss */
+.wood-wrapper .wood-inner .total-raised p:first-child {
   margin: 0px;
   margin-top: 5px;
   margin-right: 10px;
@@ -176,8 +172,8 @@ hr {
   /*font-weight:bold;*/
   text-align: right;
 }
-/* line 81, ../sass/nav.scss */
-.wood-wrapper > .wood-inner > .total-raised > p:last-child {
+/* line 87, ../sass/nav.scss */
+.wood-wrapper .wood-inner .total-raised p:last-child {
   margin: 0px;
   margin-right: 10px;
   color: #fff;
@@ -185,6 +181,10 @@ hr {
   font-weight: bold;
   text-align: right;
 }
+
+
+
+
 
 /* This animates the scoreboard, it takes 15 seconds to complete the animation and it pulls the board from right to left before resetting again */
 @-webkit-keyframes RightToLeft {

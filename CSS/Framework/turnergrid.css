@@ -386,24 +386,24 @@ html {
 
 /********************************** Button Styles *********************************/
 .btn {		
-	background-image:none;
-	border:1px solid transparent;
-	display:inline-block;
-	border-radius:8px;
-	font-family:'Roboto','Open Sans',sans-serif;
-	font-size:14px;
-	font-weight:400;
-	cursor:pointer;
-	padding:10px 15px;
-	text-decoration:none;
+	background-image:none !important;
+	border:1px solid transparent !important;
+	display:inline-block !important;
+	border-radius:8px !important;
+	font-family:'Roboto','Open Sans',sans-serif !important;
+	font-size:14px !important;
+	font-weight:400 !important;
+	cursor:pointer !important;
+	padding:10px 15px !important;
+	text-decoration:none !important;
 }
 .btn:hover, .btn:active, .btn:visited {
 	border:1px solid transparent;
 }
 .btn-hsf {
-	background-color:#ef3e42;
-	color:#fff
-	text-transform:uppercase;
+	background-color:#ef3e42 !important;
+	color:#fff !important;
+	text-transform:uppercase !important;
 }
 .btn-blue {
 	background-color:#005f95;

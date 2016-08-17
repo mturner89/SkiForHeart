@@ -1,0 +1,356 @@
+/*********************************** Typography Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/typography.scss */
+p, a, ul, li, button {
+  font-family: 'Roboto',Arial,sans-serif;
+  color: #000;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 14, ../sass/typography.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat','Roboto',Arial,sans-serif;
+  color: #BB2233;
+}
+
+/* line 19, ../sass/typography.scss */
+a {
+  color: #BB2233;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 23, ../sass/typography.scss */
+a:hover {
+  text-decoration: underline;
+
+/* line 27, ../sass/typography.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 32, ../sass/typography.scss */
+hr {
+  height: 3px;
+  width: 100%;
+  color: #BB2233;
+  background-color: #BB2233;
+}
+
+/* line 39, ../sass/typography.scss */
+.light-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: #f5f5f5;
+}
+
+/* line 45, ../sass/typography.scss */
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 50, ../sass/typography.scss */
+.cntr {
+  text-align: center;
+}
+
+/* line 53, ../sass/typography.scss */
+.spacer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 15px;
+  clear: both;
+}
+
+/* line 59, ../sass/typography.scss */
+.schedule-heading {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/*********************************** Navigation Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 8, ../sass/nav.scss */
+.nav-wrapper {
+  margin-left: -15px;
+}
+
+/* line 11, ../sass/nav.scss */
+.nav-container {
+  margin-top: 8px;
+}
+
+/* line 14, ../sass/nav.scss */
+.wood-wrapper {
+  /*background: url("../../../images/wood-2.jpg") no-repeat;*/
+  height: 50px;
+  margin-top: 2px;
+  max-width: 1015px;
+  position:relative;
+  margin-top:-50px;
+}
+/* line 19, ../sass/nav.scss */
+.wood-wrapper > .wood-inner {
+  background: rgba(255, 255, 255, 0.2);
+  height: 50px;
+  padding-top: 8px;
+}
+/* line 23, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .top-fundraisers {
+  width: 85%;
+  margin-left: 10px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  display: inline-block;
+  float: left;
+}
+/* line 31, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .top-fundraisers > p {
+  float: left;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+}
+/* line 41, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper {
+  float: left;
+  max-width: 682px;
+  overflow: hidden;
+}
+/* line 45, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents {
+  height: 45px;
+  width: 1600px;
+  -webkit-animation: RightToLeft 15s infinite;
+  /*This animation is located further down the stylesheet */
+}
+/* line 49, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p {
+  display: inline-block;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: none;
+  font-weight: normal;
+  padding-right: 0px;
+  border-right: none;
+}
+.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p > a {
+  color:#fff;
+  display:inline-block;
+}
+.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p > br,
+.wood-wrapper > .wood-inner > .top-fundraisers > .scoreboard-wrapper > .scoreboard-contents > p > img {
+  display:none;
+}
+/* line 62, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .total-raised {
+  display: inline-block;
+  float: right;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 0px;
+  margin-top: -8px;
+  width: 12%;
+  color: #fff;
+}
+/* line 71, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .total-raised > p:first-child {
+  margin: 0px;
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 10px;
+  text-transform: uppercase;
+  /*font-weight:bold;*/
+  text-align: right;
+}
+/* line 81, ../sass/nav.scss */
+.wood-wrapper > .wood-inner > .total-raised > p:last-child {
+  margin: 0px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* This animates the scoreboard, it takes 15 seconds to complete the animation and it pulls the board from right to left before resetting again */
+@-webkit-keyframes RightToLeft {
+  0% {
+    margin-left: 0;
+  }
+  10% {
+    margin-left: 0;
+  }
+  90% {
+    margin-left: -110%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/* line 100, ../sass/nav.scss */
+.nav-items {
+  margin-right: -15px;
+}
+
+/* line 103, ../sass/nav.scss */
+.nav-items > ul {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 106, ../sass/nav.scss */
+.nav-items > ul > li {
+  padding: 0px !important;
+}
+/* line 108, ../sass/nav.scss */
+.nav-items > ul > li > a {
+  color: #fff;
+  padding-right: 37px;
+  padding-left: 37px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #BB2233;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* line 118, ../sass/nav.scss */
+.nav-items > ul > li > a:hover {
+  text-decoration: none;
+  color: #BB2233;
+  background-color: #f5f5f5;
+}
+
+/* line 126, ../sass/nav.scss */
+.menu-name {
+  float: left;
+  display: none;
+  margin-left: 15px;
+}
+/* line 130, ../sass/nav.scss */
+.menu-name > p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+/************************************* Nav Media Querries *************************************/
+@media only screen and (max-width: 1050px) {
+  /* line 145, ../sass/nav.scss */
+  .wood-wrapper {
+    display: none;
+  }
+
+  /* line 148, ../sass/nav.scss */
+  .nav-items > ul > li > a {
+    padding-left: 28px;
+    padding-right: 29px;
+  }
+
+  /* line 152, ../sass/nav.scss */
+  .leaderboard-img {
+    max-width: 910px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  /* line 158, ../sass/nav.scss */
+  .nav-container {
+    background-color: #BB2233;
+  }
+
+  /* line 161, ../sass/nav.scss */
+  .nav-items {
+    border-top: 1px solid #fff;
+  }
+
+  /* line 164, ../sass/nav.scss */
+  #leaderboard-wrapper {
+    overflow: hidden;
+  }
+
+  /* line 167, ../sass/nav.scss */
+  .leaderboard-img {
+    min-height: 180px;
+    min-width: 600px;
+    max-width: 100%;
+  }
+
+  /* line 172, ../sass/nav.scss */
+  .menu-name {
+    display: block;
+  }
+}
+/*********************************** Body Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/body.scss */
+#body-contents {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+/* line 11, ../sass/body.scss */
+#body-contents > p {
+  line-height: 1.5;
+}
+#body-contents > a {
+  color:#bb2233 !important;
+}
+.inner-pad {
+  padding-right:10px;
+  padding-left:10px;
+}
+.col-3 > img {
+  height:135px;
+}
+
+/*********************************** Body Media Querries *******************************************/
+@media only screen and (max-width: 950px) {
+  /* line 20, ../sass/body.scss */
+  .col-3 > img,
+  .col-6 > img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 25, ../sass/body.scss */
+  .col-3 > p,
+  .col-6 > p {
+    text-align: center;
+  }
+}
+/*********************************** Footer Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../sass/footer.scss */
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-top: 80px;
+}
+/* line 12, ../sass/footer.scss */
+#footer > p {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* line 17, ../sass/footer.scss */
+#footer > p > a {
+  font-size: 14px;
+  color:#bb2233 !important;
+}

@@ -213,7 +213,7 @@ hr {
   display :block !important;
   float:left;
 }
-}
+
 
 /* This animates the scoreboard, it takes 15 seconds to complete the animation and it pulls the board from right to left before resetting again */
 @-webkit-keyframes RightToLeft {

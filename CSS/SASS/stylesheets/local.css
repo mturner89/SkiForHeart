@@ -407,6 +407,9 @@ hr {
   .col-6 > p {
     text-align: center;
   }
+  #body-contents {
+    width:98% !important;
+  }
 }
 /*********************************** Footer Styles ******************************************/
 /**** Variable Declarations ****/

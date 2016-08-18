@@ -38,7 +38,9 @@
 	color:#bb2233 !important;
 }
 
-#sidebar_donate_button {
+#sidebar_donate_button,
+#sidebar_donate_button:hover,
+#sidebar_donate_button:active {
 	background-color:#bb2233 !important;
 	color:#fff !important;
 	border:none !important;

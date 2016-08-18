@@ -67,6 +67,23 @@
 .search-content > noscript {
 	display:none;
 }
+
+@media only screen and (max-width: 950px) {
+	#search_part_team {
+		width:100% !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#last_name_search_field {
+		margin-bottom:30px;
+	}
+	#fr_find_search {
+		margin-top:30px;
+		position:asbolute;
+	}
+}
+
 /**********************************************************************************************************************/
 /************************************************ Donation Form *******************************************************/
 

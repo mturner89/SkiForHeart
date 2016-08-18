@@ -71,7 +71,8 @@
 @media only screen and (max-width: 950px) {
 	#search_part_team,
 	.search-content,
-	#find_participant{
+	#find_participant,
+	#search_part_team > ul > li {
 		width:100% !important;
 	}
 }

@@ -172,7 +172,8 @@ hr {
   color: #fff;
 }
 /* line 77, ../sass/nav.scss */
-.wood-wrapper .wood-inner .total-raised p:first-child {
+.wood-wrapper .wood-inner .total-raised p:first-child,
+#dollar_display{
   margin: 0px;
   margin-top: 5px;
   margin-right: 10px;
@@ -183,13 +184,20 @@ hr {
   text-align: right;
 }
 /* line 87, ../sass/nav.scss */
-.wood-wrapper .wood-inner .total-raised p:last-child {
+.wood-wrapper .wood-inner .total-raised p:last-child,
+#dollar_amount_0,
+#dollar_amount_1 {
   margin: 0px;
   margin-right: 10px;
   color: #fff;
   font-size: 22px;
   font-weight: bold;
   text-align: right;
+}
+#dollar_amount_0,
+#dollar_amount_1 {
+  display :block !important;
+}
 }
 
 /* This animates the scoreboard, it takes 15 seconds to complete the animation and it pulls the board from right to left before resetting again */

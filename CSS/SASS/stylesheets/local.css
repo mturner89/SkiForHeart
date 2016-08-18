@@ -183,6 +183,9 @@ hr {
   /*font-weight:bold;*/
   text-align: right;
 }
+#dollar_display {
+  float:left;
+}
 /* line 87, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised p:last-child,
 #dollar_amount_0,
@@ -212,6 +215,7 @@ hr {
 #dollar_amount_8 {
   display :block !important;
   float:left;
+  margin-right:0px;
 }
 
 

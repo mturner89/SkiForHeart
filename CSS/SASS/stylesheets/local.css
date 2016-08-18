@@ -186,7 +186,14 @@ hr {
 /* line 87, ../sass/nav.scss */
 .wood-wrapper .wood-inner .total-raised p:last-child,
 #dollar_amount_0,
-#dollar_amount_1 {
+#dollar_amount_1,
+#dollar_amount_2,
+#dollar_amount_3,
+#dollar_amount_4,
+#dollar_amount_5,
+#dollar_amount_6,
+#dollar_amount_7,
+#dollar_amount_8 {
   margin: 0px;
   margin-right: 10px;
   color: #fff;
@@ -195,8 +202,16 @@ hr {
   text-align: right;
 }
 #dollar_amount_0,
-#dollar_amount_1 {
+#dollar_amount_1,
+#dollar_amount_2,
+#dollar_amount_3,
+#dollar_amount_4,
+#dollar_amount_5,
+#dollar_amount_6,
+#dollar_amount_7,
+#dollar_amount_8 {
   display :block !important;
+  float:left;
 }
 }
 

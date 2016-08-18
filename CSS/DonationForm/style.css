@@ -1,4 +1,36 @@
 /**********************************************************************************************************************/
+/************************************************ Search For Participant **********************************************/
+#search_part_team {
+	width:100%;
+}
+
+#search_part_team > ul > li,
+#search_participant {
+	background-color:#fff;
+	border:none;
+}
+
+#fr_find_search {
+	background:none;
+	background-color:#bb2233;
+	color:#fff;
+	border-radius:8px;
+}
+
+#participant_find_search_text {
+	display:block !important;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+#advanced_search_container {
+	color:#bb2233 !important;
+}
+
+
+
+
+/**********************************************************************************************************************/
 /************************************************ Donation Form *******************************************************/
 
 /*Aligns the form with the left margin of the site container */

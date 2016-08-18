@@ -1,7 +1,8 @@
 /**********************************************************************************************************************/
 /************************************************ Search For Participant **********************************************/
 .tr-page-title,
-.campaign-banner-container{
+.campaign-banner-container,
+.section-sub-header.empty{
 	display:none;
 }
 

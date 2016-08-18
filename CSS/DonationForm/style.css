@@ -1,7 +1,7 @@
 /**********************************************************************************************************************/
 /************************************************ Search For Participant **********************************************/
 #search_part_team {
-	width:100% !important;
+	width:50% !important;
 }
 
 #search_part_team > ul > li,
@@ -15,6 +15,7 @@
 	background-color:#bb2233 !important;
 	color:#fff !important;
 	border-radius:8px !important;
+	width:90px !important;
 }
 
 #participant_find_search_text {

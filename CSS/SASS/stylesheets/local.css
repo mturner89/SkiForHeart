@@ -355,8 +355,9 @@ hr {
 #body-contents p {
   line-height: 1.5;
 }
-#body-contents a{
+#body-contents a {
   color:#bb2233 !important;
+  text-decoration:underline !important;
 }
 .inner-pad {
   padding-right:10px;

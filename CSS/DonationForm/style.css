@@ -233,6 +233,6 @@ div.responsive > a:link {
 #additional_questions_container > .survey-question-container:nth-child(6),
 #additional_questions_container > .survey-question-container:nth-child(7),
 #additional_questions_container > .survey-question-container:nth-child(8), 
-#additional_questions_container > .survey-question-container:nth-child(8) {
+#additional_questions_container > .survey-question-container:nth-child(9) {
 	display:none;
 }

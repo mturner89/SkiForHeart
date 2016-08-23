@@ -224,3 +224,15 @@ div.responsive > a:link {
 #previous_step {
 	display:none;
 }
+
+/* Hides the attending guest questions - JS will show them if the dropdown choice is yes */
+#additional_questions_container > .survey-question-container:nth-child(2),
+#additional_questions_container > .survey-question-container:nth-child(3),
+#additional_questions_container > .survey-question-container:nth-child(4),
+#additional_questions_container > .survey-question-container:nth-child(5),
+#additional_questions_container > .survey-question-container:nth-child(6),
+#additional_questions_container > .survey-question-container:nth-child(7),
+#additional_questions_container > .survey-question-container:nth-child(8), 
+#additional_questions_container > .survey-question-container:nth-child(8) {
+	display:none;
+}

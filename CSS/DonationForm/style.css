@@ -220,3 +220,7 @@ div.responsive > a:link {
 	border:1px solid #BB2233 !important; 
 	color:#fff !important;
 }
+
+#previous_step {
+	display:none;
+}

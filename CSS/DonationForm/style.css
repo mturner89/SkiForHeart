@@ -135,7 +135,8 @@ label {
 }
 
 /*Sets submit button styles*/
-#pstep_finish {
+#pstep_finish,
+#pstep_cancel {
 	border:1px solid #BB2233;
 	background-color:#ef3e42;
 	background-image:none;

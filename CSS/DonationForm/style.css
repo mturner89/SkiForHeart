@@ -140,7 +140,7 @@ label {
 	border:1px solid #BB2233;
 	background-color:#ef3e42;
 	background-image:none;
-	color:#fff;
+	color:#fff !important;
 	text-transform:uppercase;
 }
 
